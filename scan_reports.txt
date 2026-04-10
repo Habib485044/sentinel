@@ -1,0 +1,15 @@
+scan report: 2026-04-10 11:16:04.926466
+--------------------------------------------------
+[11:16:05] Port 80 : OPEN | Service:HTTP | Service:Unknown | Risk: Medium
+[11:16:06] Port 443 : OPEN | Service:HTTPS | Risk: Low
+[11:16:15] Port 2052 : OPEN | Service:Unknown | Risk: Unknown
+[11:16:15] Port 2053 : OPEN | Service:Unknown | Risk: Unknown
+[11:16:15] Port 2082 : OPEN | Service:Unknown | Risk: Unknown
+[11:16:15] Port 2083 : OPEN | Service:Unknown | Risk: Unknown
+[11:16:15] Port 2086 : OPEN | Service:Unknown | Risk: Unknown
+[11:16:15] Port 2087 : OPEN | Service:Unknown | Risk: Unknown
+[11:16:15] Port 2095 : OPEN | Service:Unknown | Risk: Unknown
+[11:16:15] Port 2096 : OPEN | Service:Unknown | Risk: Unknown
+[11:16:45] Port 8080 : OPEN | Service:Unknown | Risk: Unknown
+[11:16:47] Port 8443 : OPEN | Service:Unknown | Risk: Unknown
+[11:16:49] Port 8880 : OPEN | Service:Unknown | Risk: Unknown
