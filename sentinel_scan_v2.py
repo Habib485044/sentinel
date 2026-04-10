@@ -20,7 +20,8 @@ def scan_port(port):
                 f.write(f"[{timestamp}] Port {port} : OPEN | ")
                 is_port_open(port, f)
                 risk_level(port, f)
-    sock.close()
+            sock.close()
+        
 
 def is_port_open(port, f):
     if port == 21:

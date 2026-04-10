@@ -1,0 +1,34 @@
+[
+  {
+    "ip": "chatgpt.com",
+    "port": 80,
+    "status": "open",
+    "service": "HTTP",
+    "risk": "low",
+    "timestamp": "2026-04-10T16:22:56.961483"
+  },
+  {
+    "ip": "chatgpt.com",
+    "port": 443,
+    "status": "open",
+    "service": "HTTPS",
+    "risk": "low",
+    "timestamp": "2026-04-10T16:22:57.061083"
+  },
+  {
+    "ip": "chatgpt.com",
+    "port": 8080,
+    "status": "open",
+    "service": "HTTP-Alt",
+    "risk": "low",
+    "timestamp": "2026-04-10T16:22:56.964041"
+  },
+  {
+    "ip": "chatgpt.com",
+    "port": 8443,
+    "status": "open",
+    "service": "HTTPS-Alt",
+    "risk": "low",
+    "timestamp": "2026-04-10T16:22:57.043679"
+  }
+]
