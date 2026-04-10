@@ -12,6 +12,7 @@ def scan_port(port):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.settimeout(0.5)
     result= sock.connect_ex((target_ip, port))
+    sock.close()
 
     if result == 0:
         with print_lock:
@@ -20,8 +21,6 @@ def scan_port(port):
                 f.write(f"[{timestamp}] Port {port} : OPEN | ")
                 is_port_open(port, f)
                 risk_level(port, f)
-            sock.close()
-        
 
 def is_port_open(port, f):
     if port == 21:
